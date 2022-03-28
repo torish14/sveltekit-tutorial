@@ -2,7 +2,13 @@
 let title = 'Ninja Gaming Guid'
 
 const updateTitle = () => {
-	title = 'complete different title'
+	// もしもタイトルが 'Ninja Gaming Guid' であれば、タイトルを 'complete different' に変更する
+	// 反対に、もしもタイトルが 'complete different' であれば、タイトルを 'Ninja Gaming Guid' に変更する
+	if (title === 'Ninja Gaming Guid') {
+		title = 'complete different'
+	} else {
+		title = 'Ninja Gaming Guid'
+	}
 }
 </script>
 
