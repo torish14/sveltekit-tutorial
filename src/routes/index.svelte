@@ -16,6 +16,7 @@ const updateTitle = () => {
 	<h2 class="title">{title}</h2>
 	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione distinctio sit harum labore molestias facere officiis voluptatibus sapiente autem placeat nihil repellat ad sed eligendi possimus, aliquam doloribus porro repellendus.</p>
 	<button class="button" on:click={updateTitle}>update title</button>
+	<input type="text" name="" id="" bind:value={title}>
 </div>
 
 <style>
